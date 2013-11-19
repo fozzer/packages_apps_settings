@@ -43,8 +43,7 @@ public class SystemSettings extends SettingsPreferenceFragment implements
             if (!getResources().getBoolean(
                 com.android.internal.R.bool.config_intrusiveNotificationLed)) {
                 getPreferenceScreen().removePreference(mLedSettings);
-            } else {
-                updateLightPulseDescription();
+                mLedSettings = null;
             }
         }
     }
@@ -56,6 +55,19 @@ public class SystemSettings extends SettingsPreferenceFragment implements
         } else {
             mLedSettings.setSummary(getString(R.string.disabled_string));
         }
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        if (mLedSettings != null) {
+            updateLightPulseDescription();
+        }
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
     }
 
     @Override
