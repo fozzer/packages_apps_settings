@@ -32,4 +32,10 @@
     <string name="quick_pulldown_left">Left</string>
     <string name="quick_pulldown_right">Right</string>
 
-</resources>
+    <!--  Plug-in prompt -->
+    <string name="plug_in_prompt_settings_title">Plug-in prompt</string>
+
+    <!-- Turn on display when power connected; turn off display when power disconnected -->
+    <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when plugged/unplugged</string>
+    </resources>
