@@ -18,6 +18,10 @@
     <!-- Sound settings screen -->
     <string name="volume_overlay_title">Volume panel style</string>
     <string name="volume_ring_only_description">Ringtone</string>
+
+     <!--Lockscreen See Through-->
+     <string name="see_through_title">See through</string>
+     <string name="see_through_summary">Shows the content behind your lockscreen, your data may be visible to those around you</string>
     
     <!-- BUILD TWEAKS  -->
     <!-- rastakat Settings  -->
