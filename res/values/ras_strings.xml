@@ -38,6 +38,9 @@
     <string name="quick_pulldown_left">Left</string>
     <string name="quick_pulldown_right">Right</string>
 
+    <!-- Status bar double-tap to sleep -->
+    <string name="status_bar_double_tap_to_sleep_title">Double-tap to sleep</string>
+
     <!--  Plug-in prompt -->
     <string name="plug_in_prompt_settings_title">Plug-in prompt</string>
 
